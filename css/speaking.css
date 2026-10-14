@@ -1,0 +1,33 @@
+/* SPEAKING: qo'shimcha uslublar (asosi listening.css da) */
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.row label{font:15px "Trebuchet MS",sans-serif;color:var(--mut)}
+.row .btn.ghost{margin-left:0}
+.note{color:var(--mut);font-size:14px;margin:4px 0 12px}
+.bad{color:var(--bad);font-family:"Trebuchet MS",sans-serif}
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-bottom:12px}
+.bar div{height:100%;width:0;background:var(--acc);transition:width .3s}
+.meta{color:var(--acc);font-weight:700}
+.qbig{font-size:22px;line-height:1.5;padding:16px;border-radius:12px;background:var(--bg);border:1px solid var(--line);margin:12px 0}
+.time{font:700 46px "Trebuchet MS",sans-serif;color:var(--acc);margin:4px 0 12px;font-variant-numeric:tabular-nums}
+.rec{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--bad);animation:bl 1s infinite}
+@keyframes bl{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){.rec{animation:none}}
+.pics{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:12px 0}
+.pic{border:1px dashed var(--line);border-radius:12px;padding:14px;color:var(--mut);font-size:15px;background:var(--bg)}
+.pic img{width:100%;border-radius:8px;display:block}
+.ans{border-top:1px solid var(--line);padding:16px 0}
+.ans h3{margin:0 0 6px;font-size:17px}
+.tr{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:15px;margin:8px 0}
+.met{font:14px "Trebuchet MS",sans-serif;color:var(--mut)}
+.errs{font-size:15px;color:var(--bad);margin:6px 0 6px 18px;padding:0}
+details{margin:6px 0}summary{cursor:pointer;font:700 15px "Trebuchet MS",sans-serif;color:var(--acc)}
+details p{font-size:15px;margin:6px 0 6px 4px}
+.comp{width:100%;max-width:480px;border-collapse:collapse;font:15px "Trebuchet MS",sans-serif;margin:8px 0}
+.comp td{padding:5px 0;border-bottom:1px solid var(--line)}
+.comp i{display:block;height:8px;border-radius:4px;background:var(--acc)}
+audio{margin:6px 0}
+.sent{color:var(--ok);font-family:"Trebuchet MS",sans-serif}
+/* listening.css dagi #res{display:none} qoidasini bekor qiladi (natija ko'rinishi uchun) */
+#res{display:block;margin:0;padding:0;border:0;background:none}
+#res[hidden]{display:none}
+.qbig{white-space:pre-line}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- SPEAKING SAHIFASI: Part 1.1, 1.2, 2, 3 · audio yozish · tahlil · B2/C1 namunalar -->
+<html lang="uz"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Speaking — Test 1 | Multilevel Mock</title>
+<link rel="stylesheet" href="../css/listening.css">
+<link rel="stylesheet" href="../css/speaking.css">
+</head><body>
+<header class="site-header"><div class="in"><a class="logo" href="../index.html">Multilevel <span>Mock</span></a></div></header>
+<div class="wrap">
+<button class="back" onclick="goHome()">← Bo'limlarga qaytish</button>
+<h1>Speaking</h1>
+
+<section id="start">
+<div class="part">
+<h2>Imtihonni boshlash</h2>
+<p class="ins">Avval mikrofon tekshiriladi, keyin savollar ketma-ket beriladi. Tayyorlanish va javob vaqti avtomatik hisoblanadi, javobingiz yoziladi va o'qituvchiga Telegram orqali yuboriladi.</p>
+<div class="row"><label>Ism va familiya <input type="text" id="snm" placeholder="Ism Familiya" autocomplete="name" style="width:230px;max-width:100%"></label></div>
+<div class="row"><label>Telefon raqam <input type="tel" id="sph" placeholder="+998 90 123 45 67" autocomplete="tel" style="width:230px;max-width:100%"></label></div>
+<div class="row"><label>Test <select id="tsel"></select></label><label>Qism <select id="ssel"></select></label></div>
+<p class="note" id="srnote"></p>
+<div class="row"><button class="btn" onclick="start()">Boshlash</button><button class="btn ghost" onclick="toggleModels()">Namunaviy javoblar (B2 / C1)</button></div>
+<p id="msg" class="bad" role="alert"></p>
+</div>
+<div class="part" id="models" hidden></div>
+</section>
+
+<section id="exam" hidden>
+<div class="part">
+<div class="bar"><div id="pg"></div></div>
+<div class="sans meta" id="hd"></div>
+<p class="ins" id="info"></p>
+<div id="pc"></div>
+<div class="qbig" id="qt"></div>
+<div class="sans" id="ph"></div><div class="time" id="tm">00:00</div>
+<button class="btn" id="go">Boshlash</button>
+</div>
+</section>
+
+<section id="res" hidden></section>
+</div>
+<footer class="site-footer"><div class="in">
+<div class="contact">
+<div><b>Aloqa uchun:</b><a href="tel:+998902061106">+998 90 206 11 06</a><a href="tel:+998975921006">+998 97 592 10 06</a></div>
+<div><b>Telegram:</b><a href="https://t.me/Dean_06H" target="_blank" rel="noopener">@Dean_06H</a><a href="https://t.me/teacher_usmonov" target="_blank" rel="noopener">@teacher_usmonov</a></div>
+</div>
+<div class="copy">© 2026 Multilevel Mock</div>
+</div></footer>
+<script src="../js/config.js"></script>
+<script src="../js/speaking-data.js"></script>
+<script src="../js/speaking.js"></script>
+</body></html>
